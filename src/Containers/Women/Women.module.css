@@ -1,0 +1,35 @@
+.Women {
+    width: 87%;
+    margin: auto;
+    padding: 0 0 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Header {
+    width: 10%;
+    height: 230px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header h1 {
+    font-weight: 400;
+}
+
+/*? Cards container */
+
+.Cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 108px;
+}

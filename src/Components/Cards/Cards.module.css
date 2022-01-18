@@ -1,0 +1,45 @@
+.Cards {
+    width: 100%;
+    margin: auto;
+    padding: 0 0 0 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 100;
+
+}
+
+.Header {
+    width: 18%;
+    height: 230px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header h1 {
+    font-weight: 400;
+    text-align: center;
+}
+
+/*? Cards container */
+
+.CardsList {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 108px;
+}
+
+@media only screen and (max-width:1240px) {
+    .Cards {
+        
+    }
+}

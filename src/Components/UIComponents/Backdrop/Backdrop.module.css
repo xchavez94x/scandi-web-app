@@ -1,0 +1,13 @@
+.Backdrop {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    background-color: rgba(57, 55, 72, .22);
+}
+
+.HideBackdrop {
+    display: none;
+}

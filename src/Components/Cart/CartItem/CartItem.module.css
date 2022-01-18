@@ -1,0 +1,77 @@
+.CartItem {
+    width: 90%;
+    height: 138px;
+    margin: 12px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.InfoAndOptions {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+.Info {
+    padding: 10px 0 0 0 ;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.InfoHeader {
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: 28px;
+}
+
+.InfoParagraph {
+    display: block;
+    text-align: left;
+    width: 100%;
+    height: 28px;
+}
+
+.InfoAndOptions .InfoOptions {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.InfoOptions button {
+    margin-left: 4px;
+}
+
+.OrdersAndImage {
+    width: 40%;
+    height: 100%;
+}
+
+.OrdersAndImage img {
+    width: 90%;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.QuantityButtons {
+    height: 100%;
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

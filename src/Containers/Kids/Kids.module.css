@@ -1,0 +1,15 @@
+.Kids {
+    width: 87%;
+    height: 230px;
+    margin: auto;
+    padding: 0 0 0 4px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.Kids h1 {
+    display: block;
+    font-weight: 400;
+}

@@ -1,0 +1,48 @@
+.NavItem {
+    display: flex;
+    flex-direction: column;
+    width: 74px;
+    height: 100%;
+    color: #383838;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 0 0 8px 0;
+}
+
+
+
+.NavItem:hover {
+    color: #5ECE7B;
+    border-bottom:solid 1px #5ECE7B ;
+    transition: .4s ease-in-out;
+}
+
+
+.ActiveRoute {
+    color: #5ECE7B;
+    border-bottom:solid 1px #5ECE7B ;
+}
+
+/* .ActiveRoute::after {
+    display: block;
+    content: " ";
+    width: 0;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #5ECE7B;
+    animation-name: active;
+    animation-timing-function: ease-in;
+    animation-duration: .1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes active {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+} */
+

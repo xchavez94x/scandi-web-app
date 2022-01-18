@@ -1,0 +1,79 @@
+.Navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.RoutesSection {
+    font-size: 0;
+    width: 30%;
+    height: 100%;
+    justify-self: start;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.RoutesSection a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* logo section */
+
+.Logo {
+    width: 20%;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* cart section  */
+
+.CartSection {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.CartSection .Cart {
+    width: 28%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.Cart img {
+    width: 20px;
+}
+
+.Cart:hover {
+    cursor: pointer;
+}
+
+.Currency {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Currency img {
+    width: 12px;
+    height: 90%;
+    justify-self: end;
+}
+
+@media only screen and (max-width:1240px) {
+    .Navbar {
+        width: 86%;
+        margin: auto;
+    }
+}
