@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Cards from "../../Components/Cards/Cards";
 
 import Card from "../../Components/Card/Card";
 import imageOne from "../../Assets/images-for-test/Image1.jpg";
@@ -10,11 +11,8 @@ class Women extends Component {
     render () {
         return (
             <div className={styles.Women}>
-                <div className={styles.Header}>
-                    <h1> Women </h1>
-                </div>
-                
-                <div className={styles.Cards} >
+                <Cards />
+                {/* <div className={styles.Cards} >
                     <Card path={imageOne} />
                     <Card path={imageTwo} />
                     <Card path={imageOne} />
@@ -23,7 +21,7 @@ class Women extends Component {
                     <Card path={imageTwo} />
                     <Card path={imageOne} />
                     <Card path={imageTwo} />
-                </div>
+                </div> */}
             </div>
         )
     }

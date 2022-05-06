@@ -1,5 +1,5 @@
 .Women {
-    width: 87%;
+    width: 100%;
     margin: auto;
     padding: 0 0 0 4px;
     display: flex;
@@ -23,13 +23,3 @@
 }
 
 /*? Cards container */
-
-.Cards {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    row-gap: 108px;
-}

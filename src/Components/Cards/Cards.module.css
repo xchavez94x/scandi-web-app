@@ -38,8 +38,20 @@
     row-gap: 108px;
 }
 
-@media only screen and (max-width:1240px) {
+@media only screen and (min-width:801px) {
     .Cards {
-        
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .Cards {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .Cards {
+        width: 90%;
     }
 }

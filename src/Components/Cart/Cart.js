@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom"
 
 import CartItem from "./CartItem/CartItem";
 import Button from "../UIComponents/Button/Button";
@@ -6,6 +7,9 @@ import Button from "../UIComponents/Button/Button";
 import styles from "./Cart.module.css";
 
 class Cart extends Component {
+    // componentDidMount () {
+    //     console.log(this.props)
+    // }
     
     render () {
         return (
@@ -16,12 +20,17 @@ class Cart extends Component {
                     <CartItem />
                 </section>
                 <section className={styles.ButtonsContainer}>
-                    <Button buttonType="regular" label="VIEW BAG" clicked={() => { console.log('clicked') }} />
-                    <Button buttonType="regular" label="CHECK OUT" />
+                    <Button 
+                        clicked={() => this.props.history.push('/check-cart')} 
+                        buttonType="regular" 
+                        label="VIEW BAG"  />
+                    <Button 
+                        buttonType="regular" 
+                        label="CHECK OUT" />
                 </section>
             </div>
         )
     }
 }
 
-export default Cart
+export default withRouter(Cart);

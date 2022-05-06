@@ -1,4 +1,5 @@
 .Backdrop {
+    display: block;
     width: 100%;
     margin: auto;
     height: 100%;
@@ -6,8 +7,43 @@
     z-index: 200;
     top: 0;
     background-color: rgba(57, 55, 72, .22);
+    transition: all ease-in .4s;
+    animation: show .4s ease-out ;
+}
+
+@keyframes show {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 .HideBackdrop {
     display: none;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    background: rgba(57, 55, 72, .22);
+    animation: hide .4s ease-out ;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes hide {
+    0% {
+        display: block;
+        background: rgba(57, 55, 72, .22);
+    }
+    100% {
+        display: none;
+        opacity: 0;
+        background: rgba(57, 55, 72, 0);
+    }
 }

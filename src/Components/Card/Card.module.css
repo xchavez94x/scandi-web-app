@@ -28,17 +28,9 @@
 
 
 
-@media only screen and(max-width:768px) {
+@media only screen and(min-width:900px) {
     .Card {
         width: 320px;
-    }
-    
-}
-
-@media only screen and(min-width:501px) {
-    .Card {
-        width: 240px;
-        margin: auto;
     }
     
 }

@@ -1,18 +1,18 @@
 .Layout {
-    width:80%;
+    width: 80%;
     height: 100%;
     margin: auto;
 }
 
 @media screen  and (max-width:1240px) {
     .Layout {
-        width: 1240px;;
+        width: 100%;
         margin: auto;
     }
 }
 @media screen  and (max-width:800px) {
     .Layout {
-        width: 750px;
+        width: 80%;
         margin: auto;
     }
 }
@@ -20,7 +20,7 @@
 
 @media screen  and (max-width: 500px) {
     .Layout {
-        width: 480px;
+        width: 90%;
     }
 }
 
