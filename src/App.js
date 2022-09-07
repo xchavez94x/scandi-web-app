@@ -1,4 +1,4 @@
-import React, { Component } from "react"
+import React, { Component, useState, useEffect } from "react"
 import Layout from "./Containers/Layout/Layout"
 
 import './App.css';
